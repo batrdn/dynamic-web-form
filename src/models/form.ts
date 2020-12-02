@@ -9,6 +9,7 @@ export interface Form {
 
 export interface FormField {
   id: string;
+  name: string;
   type: FieldType;
   index: number;
   validations: Validation[];
@@ -25,7 +26,11 @@ export enum FieldType {
   NUMBER = "number",
   DROPDOWN = "dropdown",
   CHECKBOX = "checkbox",
-  PASSWORD = "password"
+  PASSWORD = "password",
+  SUBMIT = "submit",
+  RADIO = "radio",
+  DATE = "date",
+  TOGGLE = "toggle"
 }
 
 export interface Validation {
@@ -36,12 +41,7 @@ export interface Validation {
   pattern?: RegExp;
 }
 
-export interface FormLayout {
-  type: LayoutType;
-  columns: number;
-}
-
-export enum LayoutType {
+export enum FormLayout {
   HORIZONTAL = "horizontal",
   VERTICAL = "vertical",
   INLINE = "inline"

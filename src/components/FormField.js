@@ -59,7 +59,7 @@ function getComponent(props, Component) {
         </Component>
       );
     case "submit":
-      return <Button htmlType="submit">{props.value}</Button>;
+      return <Component htmlType="submit">{props.value}</Component>;
     default:
       return <Component placeholder={props.placeholder} />;
   }
