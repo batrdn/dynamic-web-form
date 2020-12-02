@@ -1,0 +1,29 @@
+{
+  "title": "Basic usage - antd@4.8.6",
+  "scripts": {
+    "test": "react-scripts test --env=jsdom",
+    "start": "react-scripts start",
+    "eject": "react-scripts eject",
+    "build": "react-scripts build"
+  },
+  "main": "index.js",
+  "devDependencies": {
+    "typescript": "^4.0.5"
+  },
+  "dependencies": {
+    "react-scripts": "^4.0.0",
+    "react-dom": "^16.14.0",
+    "react": "^16.14.0",
+    "antd": "4.8.6",
+    "@ant-design/icons": "latest"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "keywords": [],
+  "name": "dynamic-web-form",
+  "description": ""
+}
