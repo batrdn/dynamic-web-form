@@ -1,21 +1,18 @@
 {
-  "title": "Basic usage - antd@4.8.6",
+  "title": "Dynamic Web Form",
   "scripts": {
     "test": "react-scripts test --env=jsdom",
     "start": "react-scripts start",
     "eject": "react-scripts eject",
     "build": "react-scripts build"
   },
-  "main": "index.js",
-  "devDependencies": {
-    "typescript": "^4.0.5"
-  },
+  "main": "public/index.js",
   "dependencies": {
-    "react-scripts": "^4.0.0",
-    "react-dom": "^16.14.0",
-    "react": "^16.14.0",
+    "@ant-design/icons": "latest",
     "antd": "4.8.6",
-    "@ant-design/icons": "latest"
+    "react": "^16.14.0",
+    "react-dom": "^16.14.0",
+    "react-scripts": "^4.0.0"
   },
   "browserslist": [
     ">0.2%",
@@ -25,5 +22,10 @@
   ],
   "keywords": [],
   "name": "dynamic-web-form",
-  "description": ""
+  "version": "1.0.1",
+  "description": "",
+  "devDependencies": {
+    "webpack": "^4.4.2"
+  },
+  "files": ["build"]
 }
